@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+/* Subtle button hover effects */
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+}
+
+/* Input focus effects */
+input:focus, textarea:focus, select:focus {
+  border-color: #0891b2 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(8, 145, 178, 0.2) !important;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
